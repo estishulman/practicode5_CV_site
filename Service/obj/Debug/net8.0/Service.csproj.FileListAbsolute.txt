@@ -10,3 +10,4 @@ C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\pr
 C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\obj\Debug\net8.0\refint\Service.dll
 C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\obj\Debug\net8.0\Service.pdb
 C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\obj\Debug\net8.0\ref\Service.dll
+C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\obj\Debug\net8.0\Service.sourcelink.json

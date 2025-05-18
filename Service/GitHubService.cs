@@ -31,29 +31,41 @@ namespace Service
             return user.Followers;
         }
 
-        public async Task<List<Repository>> SearchRepositoriesInCSharpAsync(string keyword)
+        public async Task<List<Repository>> SearchRepositoriesAsync(string? name, string? language, string? username)
         {
-            // ננסה לשלוף מה־cache קודם
-            string cacheKey = $"csharp_repos_{keyword}";
+            string cacheKey = $"repos_{name}_{language}_{username}";
             if (_cache.TryGetValue(cacheKey, out List<Repository> cachedRepos))
             {
-                return cachedRepos; // אם יש תוצאה בזיכרון - נחזיר אותה
+                return cachedRepos;
             }
 
-            // אם אין בזיכרון, נשלח בקשה ל־GitHub
-            var request = new SearchRepositoriesRequest(keyword)
-            {
-                Language = Language.CSharp
-            };
+            // בונים מחרוזת חיפוש לפי הפרמטרים שקיבלת
+            var queryParts = new List<string>();
+
+            if (!string.IsNullOrEmpty(name))
+                queryParts.Add(name);
+
+            if (!string.IsNullOrEmpty(language))
+                queryParts.Add($"language:{language}");
+
+            if (!string.IsNullOrEmpty(username))
+                queryParts.Add($"user:{username}");
+
+            var query = string.Join(" ", queryParts);
+
+            if (string.IsNullOrWhiteSpace(query))
+                query = "stars:>0"; // אפשר לתת ביטוי כללי כדי שהחיפוש לא יחזור ריק
+
+            var request = new SearchRepositoriesRequest(query);
 
             var result = await _client.Search.SearchRepo(request);
             var repos = result.Items.ToList();
 
-            // נשמור את התוצאה בזיכרון ל־10 דקות
             _cache.Set(cacheKey, repos, TimeSpan.FromMinutes(10));
-
             return repos;
         }
+
+
 
         public async Task<List<RepositoryInfo>> GetPortfolioAsync(string username)
         {

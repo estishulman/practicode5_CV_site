@@ -54,3 +54,4 @@ C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\pr
 C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\practicode5\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\practicode5\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\practicode5\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\practicode5\obj\Debug\net8.0\practicode5.api.sourcelink.json

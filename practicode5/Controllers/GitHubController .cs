@@ -28,8 +28,9 @@ namespace practicode5.api.Controllers
         [HttpGet("search")]
         public async Task<IActionResult> Search([FromQuery] string? name, [FromQuery] string? language, [FromQuery] string? username)
         {
-            var repositories = await _gitHubService.SearchRepositoriesInCSharpAsync(name ?? "dotnet");
+            var repositories = await _gitHubService.SearchRepositoriesAsync(name, language, username);
             return Ok(repositories);
         }
+
     }
 }
