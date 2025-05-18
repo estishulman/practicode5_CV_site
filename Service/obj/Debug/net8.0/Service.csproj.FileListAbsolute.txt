@@ -1,0 +1,12 @@
+C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\bin\Debug\net8.0\Service.deps.json
+C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\bin\Debug\net8.0\Service.dll
+C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\bin\Debug\net8.0\Service.pdb
+C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\obj\Debug\net8.0\Service.csproj.AssemblyReference.cache
+C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\obj\Debug\net8.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\obj\Debug\net8.0\Service.AssemblyInfoInputs.cache
+C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\obj\Debug\net8.0\Service.AssemblyInfo.cs
+C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\obj\Debug\net8.0\Service.csproj.CoreCompileInputs.cache
+C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\obj\Debug\net8.0\Service.dll
+C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\obj\Debug\net8.0\refint\Service.dll
+C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\obj\Debug\net8.0\Service.pdb
+C:\aaaaaaaaaaaaתכנות\תכנות שנה ב\פרויקט מלכה ברוק\practicode5\Service\obj\Debug\net8.0\ref\Service.dll

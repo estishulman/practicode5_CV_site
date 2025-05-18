@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practicode5.api", "practicode5\practicode5.api.csproj", "{01DD568A-3554-4208-9449-7692C681403E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{4B36BA0B-97CE-4D5A-9677-406DC038D82C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01DD568A-3554-4208-9449-7692C681403E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DD568A-3554-4208-9449-7692C681403E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DD568A-3554-4208-9449-7692C681403E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DD568A-3554-4208-9449-7692C681403E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B36BA0B-97CE-4D5A-9677-406DC038D82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B36BA0B-97CE-4D5A-9677-406DC038D82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B36BA0B-97CE-4D5A-9677-406DC038D82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B36BA0B-97CE-4D5A-9677-406DC038D82C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7153C8B0-619C-4C9F-9A46-32C615E85D0D}
+	EndGlobalSection
+EndGlobal
